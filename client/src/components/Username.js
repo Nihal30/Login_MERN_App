@@ -25,7 +25,7 @@ const Username = () =>  {
     <div className="container mx-auto">
     <Toaster position='top-center' reverseOrder={false} ></Toaster>
       <div className='flex justify-center items-center h-screen'>
-        <div className={styles.glass}>
+        <div className={styles.glass} style={{width:"26%",height:"100%"}}>
 
           <div className="title flex flex-col items-center">
             <h4 className='text-5xl font-bold'>Hello Again!</h4>
